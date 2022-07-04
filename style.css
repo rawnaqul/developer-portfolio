@@ -11,14 +11,14 @@ h1 {
     color: #6b8e23;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 30px;
 }
 
 .half-width {
     width: 50%;
-    padding: 5%;
+    padding: 3%;
 }
 
 .half-width img {
@@ -44,4 +44,27 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.shadow-div {
+    width: 35%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 8px 8px 30px 8px grey;
+    border-radius: 8px;
+    border-left: 7px solid cadetblue;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+#left-border-color-mod {
+    border-left: 7px solid #6b8e23;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
 }
